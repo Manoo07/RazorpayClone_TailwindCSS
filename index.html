@@ -7,7 +7,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="main.css">
 </head>
-<body>
+<body class="overflow-x-hidden">
+    <!-- NavBar -->
     <nav class="bg-deepBlue">
         <div class="relative w-[1080px] mx-auto flex items-center justify-between">
             <!-- logo -->
@@ -73,5 +74,40 @@
         </div>
 
     </nav>
+    <!-- Hero section -->
+    <section
+    class="bg-deepBlue relat">
+    <div class=" w-10/12 max-w-[1080px] flex flex-row justify-between items-center mx-auto " >
+        <!-- leftPart -->
+        <div class="space-y-8">
+            <h1 class="font-mullish font-bold text-[40px] leading-[1.2] text-white">Power Your finance, grow your business</h1>
+            <div class="w-6 h-1 bg-greenLight"></div>
+            <p class="text-white font-mullish text-[18px] leading-7 opacity-70">Accept payments from customers. Automate payouts to vendors & employees. Never run out of working capital.</p>
+            <button class="bg-lightBlue text-white rounded-md font-mullish
+            font-bold hover:bg-lightBlue500 transition-all duration-200 py-[14px] px-[18px] flex">Sign Up Now
+            <svg
+            viewBox="0 0 24 24"
+            focusable="false"
+            class="w-[14px] h-[18px] ml-3 pt-1 box-border scale-110"
+          >
+            <path
+              fill="currentColor"
+              d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+            ></path>
+          </svg>
+        </button>
+        </div >
+        <!-- rightPart -->
+        <img src="./images/hero-illustration.jpg" alt=""
+        class="w-full max-w-[680px]">
+    </div>
+    <!-- shape part -->
+    <div class="w-[101%] absolute left-0 right-0">
+        <img src="./images/hero-shape.svg" alt="" class="w-full object-fill">
+    </div>
+
+    </section>
+    <!-- Feature section -->
+    
 </body>
 </html>
